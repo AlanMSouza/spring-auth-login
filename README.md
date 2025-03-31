@@ -49,31 +49,31 @@ Criar um Usuário:
 POST http://localhost:8080/users/cadastrar
 
 Body (JSON):
-
+```
 {
     "nome": "Alan M. Souza",
     "email": "alan@email.com",
     "senha": "123456",
     "tipo": "CLIENTE"
 }
-
+```
 Autenticar e Obter Token:
 
 POST http://localhost:8080/auth/login
 
 Body (JSON):
-
+```
 {
     "email": "alan@email.com",
     "senha": "123456"
 }
-
+```
 Resposta esperada:
-
+```
 {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCIg..."
 }
-
+```
 📜 Licença
 
 Este projeto é de uso livre para fins educacionais. 🔥🚀
