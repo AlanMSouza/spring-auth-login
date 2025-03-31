@@ -43,7 +43,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 🛠 Testando no Postman
 
-Criar um Usuário:
+### Criar um Usuário:
 
 POST http://localhost:8080/users/cadastrar
 
@@ -57,7 +57,7 @@ Body (JSON):
 }
 ```
 
-Resposta esperada:
+### Resposta esperada:
 ```
 {
     "id": 4,
@@ -68,7 +68,7 @@ Resposta esperada:
 }
 ```
 
-Autenticar:
+### Autenticar:
 
 POST http://localhost:8080/auth/login
 
@@ -80,12 +80,13 @@ Body (JSON):
 }
 ```
 
-Resposta esperada:
+### Resposta esperada:
 ```
 {
     "Login bem-sucedido""
 }
 ```
+
 📜 Licença
 
 Este projeto é de uso livre para fins educacionais. 🔥🚀
