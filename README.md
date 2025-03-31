@@ -68,7 +68,7 @@ Resposta esperada:
 }
 ```
 
-Autenticar e Obter Token:
+Autenticar:
 
 POST http://localhost:8080/auth/login
 
