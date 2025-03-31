@@ -34,7 +34,7 @@ spring.jpa.hibernate.ddl-auto=update
    ```
 2. Acesse a pasta do projeto:
    ```sh
-   cd marketplace-api
+   cd api
    ```
 3. Configure o banco de dados no **application.properties**.
 4. Execute o projeto:
