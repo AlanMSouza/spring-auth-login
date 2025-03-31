@@ -28,18 +28,15 @@ spring.jpa.hibernate.ddl-auto=update
 
 ## 🔧 Instalação e Execução
 
-1. Clone o repositório:
-2. 
+1. Clone o repositório: 
    ```sh
    git clone https://github.com/seu-usuario/marketplace-api.git
    ```
-3. Acesse a pasta do projeto:
-4. 
+2. Acesse a pasta do projeto:
    ```sh
    cd api
    ```
-5. Execute o projeto:
-6. 
+3. Execute o projeto:
    ```sh
    mvn spring-boot:run
    ```
