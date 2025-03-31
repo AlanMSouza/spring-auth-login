@@ -1,6 +1,6 @@
 # 📌 Marketplace API
 
-Este repositório contém uma API desenvolvida com **Spring Boot**, focada na implementação de autenticação e segurança utilizando JWT. 
+Este repositório contém uma API desenvolvida com **Spring Boot**, focada na implementação de autenticação de login. 
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -9,7 +9,6 @@ O projeto utiliza as seguintes tecnologias:
 - **Java 17**
 - **Spring Boot 3.4.4**
 - **Spring Security** (para autenticação e controle de acesso)
-- **JWT** (JSON Web Token para segurança)
 - **Spring Data JPA** (para interação com o banco de dados)
 - **Flyway** (para controle de migrações do banco de dados)
 - **MySQL** (banco de dados utilizado)
