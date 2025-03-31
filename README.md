@@ -57,6 +57,17 @@ Body (JSON):
 }
 ```
 
+Resposta esperada:
+```
+{
+    "id": 4,
+    "nome": "Alan M. Souza",
+    "email": "alan@email.com",
+    "senha": "$2a$10$10I4PtIxUuMjzZ4aghEEBO/0gWHSASfcSIGddVPAeyZ8g7BqvjrDy",
+    "tipo": "CLIENTE"
+}
+```
+
 Autenticar e Obter Token:
 
 POST http://localhost:8080/auth/login
@@ -72,7 +83,7 @@ Body (JSON):
 Resposta esperada:
 ```
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCIg..."
+    "Login bem-sucedido""
 }
 ```
 📜 Licença
